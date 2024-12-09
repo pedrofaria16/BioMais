@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Bio.png" type="image/x-icon">
+    <title>BioMais</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="parallax">
+        <!-- Navbar -->
+        <nav class="navbar" id="navBar">
+            <a href="#"><img src="img/Bio.png" width="25px" id="foto"></a>
+        </nav>
+
+        <!-- Header -->
+        <header class="header">
+            <div class="container header-container">
+
+                <h1>BIO <br> MAIS</h1>
+                <p class="description">Aprenda sobre a nossa terra e seus biomas, além de descobrir como ajudar na luta
+                    pela preservação! </p>
+                <div class="info-boxes">
+                    <div class="info-box">
+                        <a href="#Biomas">
+                            <h2>Biomas</h2>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <a href="#galeriaVM">
+                            <h2>Galeria</h2>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <a href="#doacao">
+                            <h2>Doações</h2>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <a href="#SobreNos">
+                            <h2>Sobre Nós</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <div class="invisivel" id="Biomas"></div>
+        <main>
+            <!-- Carousel -->
+            <div class="box">
+                
+                <section class="carousel" id="carousel">
+                    <div class="carrossel">
+
+                        <button class="setas" onclick="moveSlide(-1)"><</button>
+                        <div id="carousel-view">
+                            
+                            
+                            
+                            <div id="carousel-container">
+                                
+                                <div class="carousel-item" id="1">
+                                    <h2>Amazônia</h2>
+                                    <a href="pages/biomas/amazonia.html">
+                                        <img src="img/amazonia.jpg" alt="Amazônia">
+                                    </a>
+                                    <div class="description">
+                                        <p>
+                                            A Amazônia é a maior floresta tropical do mundo, essencial para o clima global e cheia de biodiversidade. Ela enfrenta ameaças como o desmatamento e a exploração ilegal.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" id="2">
+                                    <h2>Cerrado</h2>
+                                    <a href="pages/biomas/cerrado.html">
+                                        <img src="img/cerrado.jpg" alt="Cerrado">
+                                    </a>
+                                    <div class="description">
+                                        <p>
+                                            O cerrado um Bioma de savana com vegetação de arbustos e árvores esparsas, predominante no centro do Brasil. É rico em biodiversidade e essencial para o ciclo da água, mas sofre com o desmatamento para a agricultura.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" id="3">
+                                    <h2>Pantanal</h2>
+                                    <a href="pages/biomas/pantanal.html">
+                                        <img src="img/pantanal.webp" alt="Pantanal">
+                                    </a>
+                                    <div class="description">
+                                        <p>
+                                            A maior planície alagável do mundo, localizada no centro-oeste. É uma área rica em fauna e flora, especialmente aves e répteis, mas enfrenta degradação ambiental devido à caça e ao uso inadequado da terra.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" id="4">
+                                    <h2>Mata Atlântica</h2>
+                                    <a href="pages/biomas/mataAtlantica.html">
+                                        <img src="img/mataatlantica.jpg" alt="Mata Atlântica">
+                                    </a>
+                                    <div class="description">
+                                        <p>
+                                            Floresta tropical que se estende ao longo da costa brasileira. É uma das mais biodiversas, mas sofre com o desmatamento e urbanização. Ela é vital para a regulação do clima e recursos hídricos.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" id="5">
+                                    <h2>Caatinga</h2>
+                                    <a href="pages/biomas/caatinga.html">
+                                        <img src="img/caatinga.webp" alt="Caatinga">
+                                    </a>
+                                    <div class="description">
+                                        <p>
+                                            Bioma semiárido do nordeste brasileiro, com vegetação adaptada à seca, como cactos e arbustos espinhosos. A caatinga enfrenta degradação devido ao uso intensivo do solo e mudanças climáticas.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" id="6">
+                                    <h2>Pampa</h2>
+                                    <a href="pages/biomas/pampa.html">
+                                        <img src="img/pampa.png" alt="Pampa">
+                                    </a>
+                                    <div class="description">
+                                        <p>
+                                            Campo sulista do Brasil, com vastas planícies e vegetação de gramíneas. É um bioma de grande importância para a agricultura e pecuária, mas está ameaçado pela expansão urbana e pela agricultura.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="setas" onclick="moveSlide(1)">></button>
+                        
+                    </div>
+                </section>
+                
+                
+                
+                
+                <div class="invisivel" id="galeriaVM"></div>
+                
+                <section class="galeriaVM-container">
+                    
+                    <div class="galeriaVM">
+                        <h2 class="titulo" id="galeria">Galeria</h2>
+                        <img src="img/galeria/amazonia.jpg">
+                        <img src="img/galeria/mataatlantica2.jpg">
+                        <img src="img/galeria/oceano.jpeg">
+                        <img src="img/galeria/Cerrado(1).jpg">
+                        <img src="img/galeria/pampa.jpg">
+                        <img src="img/pantanal.webp">
+                        
+                        <div class="vejaMais">
+                            <a href="pages/galeria.html">Veja Mais</a>
+                        </div>
+                    </div>
+                </section>
+                
+
+            </div>
+        </main>
+        <div class="main2">
+
+
+            <div class="invisivel" id="doacao"></div>
+            <h2 class="titulo2">DOAÇÕES</h2>
+            <section class="doacao-container">
+                <form class="doacao-form">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Digite aqui" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Digite aqui" required>
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" placeholder="Digite aqui" required>
+                    <label for="valor">Valor que deseja doar:</label>
+                    <input type="number" id="valor" placeholder="Digite aqui" required>
+                    <input type="submit" name="Enviar" value="Enviar" onclick="doacao()">
+                </form>
+            </section>
+
+            
+
+        </div>
+        <main>
+
+            <h2 class="porque">Por que doar?</h2>
+            <div class="porqueDoar">
+                <img src="img/doar.jpg" alt="">
+
+                <div class="texto-porqueDoar">
+
+                    <p>Preservar o meio ambiente não é apenas uma responsabilidade, mas um ato de amor ao planeta que compartilhamos e às gerações futuras. </p>
+
+                    <p>Sua doação desempenha um papel essencial nessa luta. Ao contribuir, você ajuda a financiar ações concretas voltadas à preservação dos biomas brasileiros, como a Amazônia, o Cerrado, a Mata Atlântica, entre outros. Esses ecossistemas são essenciais para a regulação climática, a proteção da biodiversidade e o fornecimento de serviços ambientais indispensáveis para a vida, como a purificação do ar e da água.</p>
+                    
+                    <p>Nosso grupo, formado por estudantes apaixonados pela natureza, se compromete a fazer a diferença. Todo o dinheiro arrecadado será destinado a apoiar uma ONG renomada no campo da preservação ambiental: Instituto Socioambiental (ISA). Essa organização realiza um trabalho exemplar na proteção de territórios indígenas e áreas de conservação, promovendo práticas sustentáveis e a valorização da biodiversidade.</p>
+                    
+                    <p>Após a doação ser feita ao ISA, enviaremos um comprovante diretamente para o seu e-mail, garantindo total transparência e mostrando que sua contribuição foi destinada a uma causa que realmente importa.</p>
+                    
+                    <p>Junte-se a nós nessa missão de preservar os biomas brasileiros e cuidar do futuro do nosso planeta. Sua contribuição, por menor que pareça, é uma semente de esperança para a construção de um mundo mais verde e sustentável. Doe agora e faça parte dessa transformação!</p>
+                </div>
+            </div>
+            
+            
+            <div class="sobre">
+                
+                <h2 class="titulo" id="SobreNos">Sobre Nós</h2>
+                
+                <div class="texto-container">
+                    <div class="texto">
+                        Somos um grupo de jovens do 1º ano do Ensino Médio, unidos por uma paixão em comum: o meio ambiente. Acreditamos que conhecer é o primeiro passo para preservar, e nosso objetivo é exatamente esse – aprender e compartilhar conhecimento sobre a riqueza dos biomas brasileiros.
+
+                        O Brasil é um país incrivelmente diverso, abrigando seis grandes biomas – Amazônia, Cerrado, Mata Atlântica, Pantanal, Caatinga e Pampa. Cada um deles possui características únicas, que vão desde a biodiversidade até os desafios de preservação. Esses biomas não são apenas tesouros naturais, mas também fundamentais para o equilíbrio ambiental do planeta e para a qualidade de vida de todos nós.
+
+                        Nosso grupo quer ser mais do que apenas estudantes. Queremos ser agentes de mudança. Acreditamos que, com educação e conscientização, podemos inspirar as pessoas a cuidarem melhor do nosso país e do meio ambiente. Estamos criando conteúdos acessíveis e interativos para apresentar a importância de cada bioma, os desafios que enfrentam e como todos nós podemos ajudar.
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; BioMais, 2024</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

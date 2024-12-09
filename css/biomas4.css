@@ -1,0 +1,116 @@
+.parallax{
+    min-height: 100vh;
+}
+
+.header h1{
+    font-size: 250px;
+    line-height: 185px;
+    margin-left: 5%;
+    position: relative;
+    top: 25%;
+    color: rgb(255, 52, 52);
+    width: 750px;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 0 0;
+
+}
+
+main{
+    padding: 30px 20% 30px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: left;
+    margin: 0 0 5px 30px;
+    color: black;
+}
+
+h2{
+    color: black;
+    text-align: left;
+}
+
+hr {
+    border: solid 2px black;
+    width: 70%;
+    justify-self: start;
+    margin: 20px 0;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    font-weight: 300;
+}
+
+.imgsBFF {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 10px;
+    justify-content: center;
+}
+
+.imgBFF {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    font-size: 30px;
+    width: auto;
+    border: solid 3px black;
+    border-radius: 5px;
+    transition: 0.3s all ease;
+    text-decoration: none;
+}
+.imgBFF h2{
+    color: white;
+}
+.imgBFF:hover{
+    font-size: 35px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
+.biomaDescription{
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    gap: 10px;
+    grid-template-areas: ". img" ". img" ". img";
+    margin-top: 20px;
+    P {
+        width: 510px;
+    }
+}
+
+.biomaDescription img{
+    grid-area: img;
+    border: solid black 3px;
+    border-radius: 5px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.flora-faunaImgs{
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
+.flora-faunaImgs img{
+    height: 350px;
+    border: solid 3px black;
+    border-radius: 5px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+footer p{
+    color: white;
+    font-size: 20px;
+}
