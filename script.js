@@ -66,10 +66,6 @@ function doacao() {
     }
 }
 
-setInterval(() => {
-    console.log(window.scrollY);
-}, 100);
-
 const foto = document.getElementById('navBar');
 
 var imgTag1 = '<a href="#"><img src="img/Bio.png" width="25px" id="foto">'
@@ -77,9 +73,9 @@ var imgTag2 = '<a href="#"><img src="img/Bio2.png" width="25px" id="foto">'
 
 
 window.addEventListener('scroll', function() {
-    if(window.scrollY >= 1018 && window.scrollY < 2819) {
+    if(window.scrollY >= 920 && window.scrollY < 2737) {
         foto.innerHTML = imgTag2;
-    } else if (window.scrollY >= 3668 ){
+    } else if (window.scrollY >= 3575 ){
         foto.innerHTML = imgTag2
     } else {
         foto.innerHTML = imgTag1
